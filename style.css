@@ -1,0 +1,36 @@
+body {
+    background-color: aqua;
+}
+
+.app {
+    background-color: white;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 10% auto 10%;
+    height: 100vh;
+    margin: 10px 10px; /* Just for checking colors */
+    padding: 10px 10px; /* Just for checking colors */
+}
+
+.header {
+    background-color: red;
+}
+
+.main {
+    background-color: green;
+    display: flex;
+    padding: 10px 10px; /* Just for checking colors */
+    overflow: hidden;
+}
+
+.main-content {
+    background-color: lightgreen;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
+.footer {
+    background-color: blue;
+}
+
